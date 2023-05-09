@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+    <include file="$(find mach1_bringup)/launch/full_hardware.launch"/>
+    <include file="$(find mach1_bringup)/launch/navigation.launch"/>
+</launch>

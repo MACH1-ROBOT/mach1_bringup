@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="vel_switch_node"        pkg="mach1_navigation"      type="vel_switch_node"/>
+</launch>
