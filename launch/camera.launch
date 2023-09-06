@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!-- Setup camera and launch camera feeds -->
+<launch> 
+    <group ns="hardware">
+        <rosparam command="load" file="$(find mach1_bringup)/config/camera.yaml"/>
+    </group>
+    <node name="camera_server_node" pkg="camera_driver" type="camera_server_node"/>
+</launch>
