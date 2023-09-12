@@ -6,7 +6,7 @@
 # camera: dictionary containing fps, camera index,
 # ----------- and name of the camera.
 camera:
-  name: "RPi Camera"xx
+  name: "RPi Camera"
   type: "USB" # Can be one of the following: USB, RPI_USB, RPI_FLEX, THERMAL, DEPTH
   index: -1 # Set as -1 to accept first available camera index.
-  fps: 30 
+  fps: 30
